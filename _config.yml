@@ -1,0 +1,12 @@
+title: Opération Libre
+email: contact@operation-libre.org
+description: Opération Libre c''est 48 heures d''animations participatives, pour collecter et libérer les informations et outils d''une commune avec les habitants, des associations et contributeurs
+keywords: opendata, OSM, médiawiki, wikimédia, mapillary
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.operation-libre.org"
+twitter_username: operationlibre
+github_username:  libertic
+
+# Build settings
+markdown: kramdown
+theme: minima
