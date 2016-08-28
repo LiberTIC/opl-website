@@ -16,45 +16,48 @@
         
     </head>
     
-    <body class="home" itemscope itemtype="http://schema.org/WebPage">
+    <body>
     
-    <!-- Navbar -->
-    <header class="navbar navbar-inverse navbar-fixed-top hidden-print">
-	<div class="navbar-inner">
-	    <div class="container">
-		<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		</button>
-		<a class="brand" href="/" title="Opération Libre">
-		    <img class="baseline" src="/assets/logo.png" alt="Opération Libre"/>
+    <section id="bodywrapper" class="bodywrapper container-fluid">
+    
+      <aside class="col-md-offset-1 col-md-2">
+	<ul>
+	  <li>Coucou</li>
+	</ul>  
+      </aside>
+      
+      <section class="col-md-8" id="content">
+	<!-- Navbar -->
+	<header class="navbar hidden-print">
+	    <div class="navbar-inner">
+		<a href="/" title="Accueil">
+		  <img class="baseline" src="/assets/logo-opl.png" alt="Opération Libre"/>
 		</a>
-		<nav class="nav-collapse collapse">
-		<ul class="nav">
-		  {% for p in site.pages %}
-		    <li>
-		      <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
-		    </li>
-		  {% endfor %}
-		</ul>
+		<nav>
+		  <ul class="nav nav-pills">
+		    {% for p in site.pages %}
+		      <li>
+			<a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
+		      </li>
+		    {% endfor %}
+		  </ul>
 		</nav>
 	    </div>
-	</div>
-    </header>
+	</header>
 
-        
-
-        {{content}}
-        
-        <footer id="footer" class="hidden-print">
+	<section>
+	  {{content}}
+	</section>
+	  
+	<footer id="footer" class="hidden-print">
 	    <div class="container">
 		<div class="row-fluid">
 		    
 		</div>
 	    </div>
-        </footer>
+	</footer>
+      </section>
 
-        
-    </body>
+    </section>
+  </body>
 </html> 

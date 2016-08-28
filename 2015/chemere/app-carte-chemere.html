@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opération libre Chéméré 2015</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+</head>
+<body>
+    <div id="map" style="width: 425px; height: 350px"></div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([47.1224317, -1.9142853], 7);
+
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '&copy; Openstreetmap France | Données <a href=' +
+                         '"http://www.openstreetmap.org/copyright">&copy;' +
+                         ' les contributeurs OpenStreetMap</a>'
+        }).addTo(map);
+
+
+        L.marker([47.1224317, -1.9142853]).addTo(map)
+            .bindPopup(
+                '<b>Opération libre</b><br />Chéméré, Loire-Atlantique (44).'
+            ).openPopup();
+
+    </script>
+</body>
+</html>

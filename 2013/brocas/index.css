@@ -1,0 +1,106 @@
+/* ::::: https://web.archive.org/static/css/banner-styles.css ::::: */
+
+#wm-ipp { width: 100%; min-height: 65px; min-width: 800px; left: 0px; top: 0px; padding: 0px; margin: 0px; border-radius: 0px; background-color: transparent; font-size: 11px; }
+#wm-ipp * { font-family: Lucida Grande,Helvetica,Arial,sans-serif; font-size: inherit; line-height: 1.2; width: auto; outline: medium none; float: none; }
+#wm-ipp div, #wm-ipp tr, #wm-ipp td, #wm-ipp a, #wm-ipp form { padding: 0px; margin: 0px; border: medium none; border-radius: inherit; background-color: transparent; background-image: none; z-index: 2147483640; }
+#wm-ipp table { border: medium none; border-collapse: collapse; margin: 0px; padding: 0px; width: auto; font-size: inherit; }
+#wm-ipp form input { padding: 1px; height: auto; display: inline; margin: 0px; }
+#wm-ipp form input[type="submit"] { padding: 0px 8px; margin: 1px 0px 1px 5px; width: auto ! important; }
+#wm-ipp a:hover { text-decoration: underline ! important; }
+#wm-ipp #wm-ipp-inside { width: 98% ! important; min-width: 780px; margin: 0px auto; border-width: medium 5px 5px; border-style: none solid solid; border-color: -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgba(255, 255, 255, 0.9); box-shadow: 1px 1px 4px rgb(51, 51, 51); border-radius: 0px 0px 8px 8px; }
+#wm-ipp #wm-logo { padding: 0px 10px; vertical-align: middle; min-width: 110px; }
+#wm-ipp td.c { vertical-align: top; width: 100%; }
+#wm-ipp td.c td.u { padding: 3px 0px; text-align: center; }
+#wm-ipp td.c td.n { padding-left: 5px; }
+#wm-ipp td.c td.n a { text-decoration: none; color: rgb(51, 51, 255); font-weight: bold; }
+#wm-ipp td.c td.n td.b { padding-right: 6px ! important; text-align: right ! important; overflow: visible; white-space: nowrap; color: rgb(153, 153, 170); vertical-align: middle; }
+#wm-ipp td.c td.n td.c { background: rgb(0, 0, 0) none repeat scroll 0% 0%; color: rgb(255, 255, 0); font-weight: bold; text-align: center; }
+#wm-ipp td.c td.n td.f { padding-left: 6px ! important; text-align: left ! important; overflow: visible; white-space: nowrap; color: rgb(153, 153, 170); vertical-align: middle; }
+#wm-ipp td.c td.n tr.m td { text-transform: uppercase; white-space: nowrap; padding: 2px 0px; }
+#wm-ipp td.c td.s { padding-right: 5px; text-align: center; vertical-align: bottom; }
+#wm-ipp td.c td.s a.t { color: rgb(51, 51, 255); font-weight: bold; line-height: 1.8; }
+#wm-ipp td.c td.s div.r { color: rgb(102, 102, 102); font-size: 9px; white-space: nowrap; }
+#wm-ipp td.c td.k { vertical-align: bottom; padding-bottom: 2px; }
+#wm-ipp td.c td.n tr.y td, #wm-ipp td.c td.s { padding-bottom: 2px; }
+div#wm-ipp-sparkline { position: relative; white-space: nowrap; background-color: rgb(255, 255, 255); cursor: pointer; border-right: 1px solid rgb(204, 204, 204); line-height: 0.9; }
+#sparklineImgId { position: relative; z-index: 9012; }
+#wm-ipp-sparkline div.yt { position: absolute; z-index: 9010 ! important; background-color: rgb(255, 255, 0) ! important; }
+#wm-ipp-sparkline div.mt { position: absolute; z-index: 9011 ! important; background-color: rgb(236, 0, 140) ! important; }
+#wm-ipp td.r { position: relative; padding-left: 65px; }
+#wm-ipp td.r a { display: block; padding: 0px 15px 0px 0px; color: rgb(51, 51, 255); border: medium none; position: absolute; right: 5px; background-color: transparent; background-repeat: no-repeat ! important; background-position: 100% 100% ! important; }
+/* ::::: https://web.archive.org/web/20141012011423cs_/http://www.operation-libre.org/files/css ::::: */
+
+@font-face {
+	font-family: "Antic Slab";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Antic Slab"), local("AnticSlab-Regular"), url('8c9q46cacsp9tirx9klgzl3hpw3pgy2gai-ip7wpmi0.woff') format("woff");
+}
+@font-face {
+	font-family: "Economica";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Economica"), local("Economica-Regular"), url('jobgdqiputmacaaak3pmg7o3ldcazywl9si6vvxl-qu.woff') format("woff");
+}
+@font-face {
+	font-family: "Economica";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Economica Bold"), local("Economica-Bold"), url('uk4l2vepwjv3gdcwbwxe9krdozjipcynfooougcosrk.woff') format("woff");
+}
+@font-face {
+	font-family: "Oxygen";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Oxygen"), local("Oxygen-Regular"), url('eawt4yudg0otf3rlsjd6zovvdin1pk8aktelpez5c0a.woff') format("woff");
+}
+/* ::::: https://web.archive.org/web/20141012011423cs_/http://www.operation-libre.org/files/reset.css ::::: */
+
+html { color: rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+li { list-style: outside none none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q::before, q::after { content: ""; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, textarea, select {  }
+/* ::::: https://web.archive.org/web/20141012011423cs_/http://www.operation-libre.org/files/base.css ::::: */
+
+.use-base { color: rgb(0, 0, 0); font-family: Helvetica,Arial,sans-serif; font-size: 13px; line-height: 18px; }
+.use-base table td, .use-base table th { color: rgb(0, 0, 0); font-family: Helvetica,Arial,sans-serif; line-height: 18px; font-size: 100%; padding: 0px; margin: 0px; text-align: left; vertical-align: top; }
+.use-base ul { padding-left: 10px; margin-left: 10px; list-style-type: disc; }
+.use-base .small { font-size: 90%; }
+.use-base .clear-after::after { display: block; height: 0px; line-height: 0; clear: both; visibility: hidden; }
+.use-base .clearfix::after { display: block; height: 0px; line-height: 0; clear: both; visibility: hidden; }
+/* ::::: https://web.archive.org/web/20141012011423cs_/http://www.operation-libre.org/files/hackingcorruption.css ::::: */
+
+html, body { padding: 30px; background: transparent url('background.jpg') no-repeat fixed 0% 0% / cover ; }
+.use-base { color: rgb(48, 48, 48); font-size: 14pt; line-height: 1.25em; }
+.use-base tr td, .use-base tr th { font-family: Oxygen,serif; font-size: 100%; }
+.use-base { font-family: Oxygen,serif; font-size: 100%; }
+.use-base h1, .use-base h2, .use-base h3, .use-base h4, .use-base h5 { font-family: "Antic Slab",serif; line-height: 1.25em; }
+.use-base p { line-height: 1.5em; }
+.small { font-size: small; }
+.use-base ul li { margin-bottom: 0.25em; margin-top: 0.25em; padding-left: 0.5em; list-style-type: disc; }
+.use-base u { padding-left: 0.25em; padding-right: 0.25em; background-color: rgb(255, 213, 213); text-decoration: none; }
+.use-base a, .use-base a:active, .use-base a:visited, .use-base a:hover { color: rgb(255, 78, 78); text-decoration: none; }
+.use-base a:hover, .use-base a:active:hover, .use-base a:visited:hover, .use-base a:hover:hover { text-decoration: underline; }
+.use-base .register.button { transition-property: color, border-color; transition-duration: 0.25s; padding: 0.25em 1em; border: 3px solid rgb(228, 117, 117); border-radius: 2em; color: rgb(255, 78, 78); font-size: 150%; font-family: "Antic Slab",serif; font-weight: bold; text-transform: uppercase; text-decoration: none ! important; }
+.use-base .register.button:hover { border-color: rgb(206, 0, 0); color: rgb(206, 0, 0); }
+#contenu { width: 925px; margin: 0px auto; }
+.Page { float: right; width: 685px; margin: auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 0px 0px 5px rgb(144, 144, 144); }
+.Page .banner { position: absolute; width: 680px; height: 1.5em; margin-top: -1.25em; margin-left: -1.5em; padding: 0.5em 0.5em 0.5em 1.5em; background: rgb(255, 78, 78) none repeat scroll 0% 0%; color: white; }
+.Page .banner::after { position: absolute; width: 0px; height: 0px; bottom: -1.5em; left: 0px; border-top: 1.5em solid rgb(255, 213, 213); border-left: 1.5em solid transparent; border-right: 0px solid transparent; content: ""; }
+#Header, .section, #Footer { padding: 60px; }
+#Header { position: relative; }
+#header h1 { margin-top: 40px; font-size: 200%; font-weight: bold; text-transform: uppercase; }
+#Header .logo { position: absolute; top: -3px; left: -2px; }
+#Header .languages { position: absolute; top: 1em; right: 1em; color: rgb(224, 224, 224); font-size: 70%; text-transform: uppercase; }
+.section { border-top: 1px solid rgb(224, 224, 224); }
+.section h2 { margin-bottom: 0.5em; font-size: 150%; font-weight: bold; text-transform: uppercase; }
+ul#navigation { position: fixed; top: 135px; margin-left: -250px; background: white none repeat scroll 0% 0%; list-style: outside none none; }
+.block::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.logo { padding-bottom: 30px; }
+body { margin-top: 0px ! important; padding-top: 0px ! important; min-width: 800px ! important; }

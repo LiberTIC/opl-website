@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Antic Slab";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Antic Slab"), local("AnticSlab-Regular"), url('../fonts/8c9q46cacsp9tirx9klgzl3hpw3pgy2gai-ip7wpmi0.woff') format("woff");
+}
+
+
+@font-face {
+  font-family: "Oxygen";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Oxygen"), local("Oxygen-Regular"), url('../fonts/eawt4yudg0otf3rlsjd6zovvdin1pk8aktelpez5c0a.woff') format("woff");
+}
