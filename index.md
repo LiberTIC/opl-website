@@ -30,7 +30,7 @@ Tout le monde !
 
 Même si ces animations regroupent beaucoup de spécialistes, toute personne intéressée peut librement participer, des enfants aux anciens, en famille ou en solo.
 
-![Photo de l'équipe OPL 2013](/assets/images/photo-equipe-opl.jpg "Équipe de l'OPL 2013")
+![Photo de l'équipe OPL 2013](./assets/images/photo-equipe-opl.jpg "Équipe de l'OPL 2013")
 
 Voici quelques actions accessibles à tous :
 
