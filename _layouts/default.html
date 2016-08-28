@@ -1,61 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="robots" content="index, follow" />
-        <meta name="description" content="{{ site.description }}" />
-        <meta name="keywords" content="{{ site.keywords }}" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/png" href="./assets/logo.png">
-        
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- custom css -->
-        <link type="text/css" rel="stylesheet" href="./css/main.css" media="all" />
-        
+        {% include head.html %}
     </head>
-    
     <body>
     
     <section id="bodywrapper" class="bodywrapper container-fluid">
     
-      <aside class="col-md-offset-1 col-md-2">
-	<ul>
-	  <li>Coucou</li>
-	</ul>  
-      </aside>
+      {% include opl-list.html %}
       
       <section class="col-md-8" id="content">
-	<!-- Navbar -->
-	<header class="navbar hidden-print">
-	    <div class="navbar-inner">
-		<a href="/" title="Accueil">
-		  <img class="baseline" src="./assets/logo-opl.png" alt="Opération Libre"/>
-		</a>
-		<nav>
-		  <ul class="nav nav-pills">
-		    {% for p in site.pages %}
-		      <li>
-			<a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
-		      </li>
-		    {% endfor %}
-		  </ul>
-		</nav>
-	    </div>
-	</header>
 
-	<section>
-	  {{content}}
-	</section>
-	  
-	<footer id="footer" class="hidden-print">
-	    <div class="container">
-		<div class="row-fluid">
-		    
-		</div>
-	    </div>
-	</footer>
+        {% include header.html %}
+        
+        <section>
+          {{content}}
+        </section>
+        
+        {% include footer.html %}
+ 
       </section>
 
     </section>
