@@ -14,7 +14,7 @@ body {
   
   #bodywrapper {
   
-    aside, section {
+    > aside, > section {
       background-color: #FFFFFF;
       box-shadow: 5px 5px 20px #aaa;
     }
